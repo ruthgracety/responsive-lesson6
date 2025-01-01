@@ -31,6 +31,11 @@ p {
     line-height: 30px;
 }
 
+.about-link {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+}
+
 .btn-branding {
     background: var(--branding-color);
     border-radius: 4px;
@@ -69,8 +74,30 @@ p {
     line-height: 1.5;
 }
 
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
 .project-description {
     padding: 120px 60px;
+}
+
+.responsive {
+  max-width: 100%;
+  border-radius: 20px;
+  height: auto;
+  display: block;
+  margin: 30px auto;
 }
 
 @media (max-width: 900px) {
