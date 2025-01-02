@@ -3,7 +3,6 @@
     --secondary-color: #F9F7FE;
     --heading-font-family: "Playfair Display", serif;
     --default-font-family: "Poppins", serif;
-
 }
 
 body {
@@ -29,11 +28,30 @@ p {
     font-weight: normal;
     font-size: 16px; 
     line-height: 30px;
+    font-family: var(--default-font-family);
 }
 
 .about-link {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
+}
+
+.about-section {
+    padding: 0;
+    text-align: center;
+}
+
+.about-section h1 {
+    font-size: 54px;
+    line-height: 80px;
+}
+
+.about-section-content {
+    margin: 30px;
+}
+
+.about-section a {
+    text-decoration: none;
 }
 
 .btn-branding {
@@ -103,7 +121,7 @@ p {
 @media (max-width: 900px) {
     h1 {
         font-size: 44px;
-        line-height: 2;
+        line-height: 56px;
     }
     h2 {
         font-size: 44px;
